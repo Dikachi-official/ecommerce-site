@@ -1,0 +1,420 @@
+<html lang="english">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>
+        MykeStore Web Portfolio
+    </title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.css">
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="myke.jpg" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="#MenuItems">Home</a></li>
+                        <li><a href="#myoffer">Offers</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#aboutmoi">About</a></li>
+                        <li><a href="#contactmoi">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="shopping-cart.png" width="30px" height="30px">
+                <img src="nav-bar-white-bg.png" class="menu-icon" alt="A menu icon" onclick="menutoggle()">
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>Explore life with unique styles</h1>
+                    <p>Upgrade your odogwu level with us.<br>
+                        Let your style project greatness</p>
+                    <a href="" class="btn">Explore Now &#8594</a>
+                </div>
+                <div class="col-2">
+                    <img src="pinksuit.jpg" alt="A guy">
+                </div>
+            </div>
+        </div>
+
+
+        <!--------featured categories------->
+        <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="outfits/techwear_jogger-pants_.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="turtleneck-with-suit-stylemain.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="luxurycover/shoe-section-cover-photo.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------Featured products------>
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img id="products" src="luxury/luxury_brand_men_classic_jpg.jpg">
+                    <h4>Luxury Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>&#x20A6;28,500</p>
+                </div>
+                <div class="col-4">
+                    <img src="shoes/dark_blue_sneaker.jpg">
+                    <h4>Sneakers</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                    <p>&#x20A6;9,500</p>
+                </div>
+                <div class="col-4">
+                    <img src="shirts/shirts.jpg">
+                    <h4>Casuals T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>&#x20A6;13,500</p>
+                </div>
+                <div class="col-4">
+                    <img src="trouser/plain-trouser.png">
+                    <h4>Smart trouser</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <p>&#x20A6;10,000</p>
+                </div>
+                <div class="col-4">
+                    <img src="trouser/trouser-cargo.jpg">
+                    <h4>Cargo trouser</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <p>&#x20A6;12,800</p>
+                </div>
+                <div class="col-4">
+                    <img src="streetcover/fashionstreetcover.jpg">
+                    <h4>Designer Casuals</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <p>&#x20A6;11,800</p>
+                </div>
+                <div class="col-4">
+                    <img src="shoes/red_sneaker_.jpg">
+                    <h4>Red Sneakers</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <p>&#x20A6;8,000</p>
+                </div>
+                <div class="col-4">
+                    <img src="outfits/guy_in_red_sneaker.jpg">
+                    <p>Shop With Us</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!---------Latest products------>
+
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="shoes/f3e6ead38a2b47209a810e5b9de802c8_1661192711942.jpg">
+                <h4>Premium Nike Sneakers</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>&#x20A6;20,500</p>
+            </div>
+            <div class="col-4">
+                <img src="shoes/sketchers_for_men.jpg">
+                <h4>Breathable Sketchers</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>&#x20A6;11,500</p>
+            </div>
+            <div class="col-4">
+                <img src="luxury/luxury_blue_for_men_calos_santos.jpg">
+                <h4>Carlos Santos blue</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>&#x20A6;48,000</p>
+            </div>
+            <div class="col-4">
+                <img src="luxury/leather_loafers1.jpg">
+                <h4>Leather Loafers</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>&#x20A6;30,000</p>
+            </div>
+            <div class="col-4">
+                <img src="shirts/shirt-multi-color.jpg">
+                <h4>Casual Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>&#x20A6;9,000</p>
+            </div>
+            <div class="col-4">
+                <img src="shirts/shirt-white.jpg">
+                <h4>White Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <p>&#x20A6;9,000</p>
+            </div>
+            <div class="col-4">
+                <img src="polo/big-polo.jpg">
+                <h4>Round-neck Mumbai</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <p>&#x20A6;16,500</p>
+            </div>
+            <div class="col-4">
+                <img src="polo/plain-tee.jpg">
+                <h4>Tommy Sean White T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <p>&#x20A6;13,000</p>
+            </div>
+        </div>
+    </div>
+
+    <!----------Offer-------------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img id="myoffer" src="Apple_watch-series7_hermes-styled.jpg" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p id class="offer-section">Exclusively Available on MykeStores</p>
+                    <h1>Apple Watch Series 7</h1>
+                    <small>The Apple Series 7 smart watch featuring hermes band strap offers a retina LTPO Oled
+                        display, an apple S7 chip with 326ppi, 32gb internal memory, 1gb ram, accelerometer, gyro,
+                        heart rate, barometer, compass,SpO2, VO2 max sensors.<br> Technology with style.<br>
+                    </small>
+                    <a href="" class="btn">Buy Now &#8594</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------testimonial---------->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>Kudos to MykeStore, Great creativity
+                        Do give away Sir
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <img src="Wizkid-white-bg2.jpg" alt="Wizkid">
+                    <h3>Ayodeji Balogun</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>Smooth and reliable, Any day and time</p>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <img src="Burna-Boy-2-main-portriat.jpg" alt="Burna boy">
+                    <h3>Ogulu Damini</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>Dikachi is doing such a nice job
+                        support you all the way boss.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="davido-whitebg.jpg" alt="Davido">
+                    <h3>David Adeleke</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------brands------------>
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="Tesla-png-download.png" alt="Tesla">
+                </div>
+                <div class="col-5">
+                    <img src="hermes-logo.jpg" alt="Hermes">
+                </div>
+                <div class="col-5">
+                    <img src="Apple-Iconmain.jpg" alt="Apple">
+                </div>
+                <div class="col-5">
+                    <img src="pepsi-logo.jpg" alt="Pepsi">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------footer----------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Andriod and ios Platforms.</p>
+                    <div class="app-logo">
+                        <img src="apple-store-main1.jpg" alt="playstore icon image">
+                        <img src="PlayStore-main.jpg" alt="ios icon image">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img id="aboutmoi" src="myke.jpg" alt="myke logo">
+                    <p>Our Goal is to make our products available to a wider audience
+                        and to stand out in any possible way.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Product policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <a id="contactmoi" href="https://www.linkedin.com/in/dikachi-n-249699213" target="_blank">
+                            <li>LinkedIn</li>
+                        </a>
+                        <a href="https://twitter.com/Deeka_official1?t=M-aFUxstJqPHSwUz6qJD-Q&s=09" target="_blank">
+                            <li>Twitter</li>
+                        </a>
+                        <a href="https://github.com/Dikachi-official" target="_blank">
+                            <li>GitHub</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copy-right">Dikachi &#169</p>
+        </div>
+    </div>
+    <!-------------------js for toggle menu----------------------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight = "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
