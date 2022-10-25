@@ -1,1 +1,1 @@
-# Frontend Ecommerce site using HTML,CSS, and JavaScript
+# Frontend Ecommerce site
